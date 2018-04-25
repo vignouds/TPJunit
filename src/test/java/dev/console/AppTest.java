@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
+import org.junit.contrib.java.lang.system.TextFromStandardInputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,8 +21,11 @@ public class AppTest {
 	private static final Logger LOG = LoggerFactory.getLogger("titreLogger");
 	
 	@Rule
+	public final TextFromStandardInputStream systemInMock = TextFromStandardInputStream.emptyStandardInputStream();
+	
+	@Rule
 	public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
-
+	
 	private App app;
 	private CalculService calculService;
 	
@@ -56,7 +60,6 @@ public class AppTest {
 		this.app.evaluer(expression);
 		verify(calculService).additionner(expression);
 		
-		//LOG.info("Alors dans la console, s'affiche 1+34=35"); 
 		assertThat(systemOutRule.getLog().contains("L'expression est invalide."));
 	}
 	
@@ -67,5 +70,21 @@ public class AppTest {
 		String logConsole = systemOutRule.getLog();
 		
 		assertThat(logConsole).contains("**** Application Calculatrice ****");
+	}
+	
+	@Test
+	public void testDemarrerAuRevoir() throws Exception {
+		systemInMock.provideLines("fin");
+		this.app.demarrer();
+		String logConsole = systemOutRule.getLog();
+		assertThat(logConsole).contains("Au revoir :-(");
+	}
+	
+	@Test
+	public void testDemarrer12Fin() throws Exception {
+		systemInMock.provideLines("1+2", "fin");
+		this.app.demarrer();
+		String logConsole = systemOutRule.getLog();
+		assertThat(logConsole).contains("**** Application Calculatrice ****\r\nVeuillez saisir une expression:\r\n1+2=3\r\nVeuillez saisir une expression:\r\nAu revoir :-(");
 	}
 }

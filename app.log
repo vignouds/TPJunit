@@ -90,3 +90,95 @@
 14:15:40.831 [main] INFO  titreLogger -**** Application Calculatrice ****
 14:15:40.831 [main] INFO  titreLogger -L'expression 1+34 est invalide
 14:15:40.831 [main] INFO  titreLogger -1+34=0
+15:04:19.424 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:04:19.439 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:04:19.439 [main] INFO  titreLogger -1+34=35
+15:04:19.439 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:04:19.439 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:04:19.470 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:04:19.470 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:04:19.470 [main] INFO  titreLogger -1+34=0
+15:07:22.241 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:07:22.257 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:07:22.257 [main] INFO  titreLogger -1+34=35
+15:07:22.257 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:07:22.257 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:07:22.288 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:07:22.288 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:07:22.288 [main] INFO  titreLogger -1+34=0
+15:08:18.750 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:08:18.750 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:08:18.750 [main] INFO  titreLogger -1+34=35
+15:08:18.750 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:08:18.750 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:08:18.781 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:08:18.781 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:08:18.781 [main] INFO  titreLogger -1+34=0
+15:08:18.797 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:08:18.797 [main] INFO  titreLogger -Au revoir :-(
+15:16:38.084 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:16:38.115 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:16:38.115 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:16:38.115 [main] INFO  titreLogger -1+34=35
+15:16:38.115 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:16:38.131 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:16:38.131 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:16:38.131 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:16:38.131 [main] INFO  titreLogger -1+34=0
+15:16:38.131 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:16:38.131 [main] INFO  titreLogger -Au revoir :-(
+15:17:42.201 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:17:42.232 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:17:42.232 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:17:42.248 [main] INFO  titreLogger -1+34=35
+15:17:42.248 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:17:42.248 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:17:42.248 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:17:42.248 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:17:42.248 [main] INFO  titreLogger -1+34=0
+15:17:42.248 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:17:42.248 [main] INFO  titreLogger -Au revoir :-(
+15:19:07.524 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:07.555 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:19:07.555 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:19:07.555 [main] INFO  titreLogger -1+34=35
+15:19:07.555 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:19:07.571 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:19:07.571 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:07.571 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:19:07.571 [main] INFO  titreLogger -1+34=0
+15:19:07.571 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:07.571 [main] INFO  titreLogger -Au revoir :-(
+15:19:24.699 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:24.730 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:19:24.730 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:19:24.730 [main] INFO  titreLogger -1+34=35
+15:19:24.730 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:19:24.746 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:19:24.746 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:24.746 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:19:24.746 [main] INFO  titreLogger -1+34=0
+15:19:24.746 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:24.746 [main] INFO  titreLogger -Au revoir :-(
+15:19:36.870 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:36.901 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:19:36.917 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:19:36.917 [main] INFO  titreLogger -1+34=35
+15:19:36.917 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:19:36.917 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:19:36.917 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:36.917 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:19:36.917 [main] INFO  titreLogger -1+34=0
+15:19:36.917 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:19:36.917 [main] INFO  titreLogger -Au revoir :-(
+15:20:09.485 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:20:09.516 [main] INFO  titreLogger -Etant donné, un service CalculService qui retourne 35 à l'évaluation de l'expression 1+34
+15:20:09.516 [main] INFO  titreLogger -Lorsque la méthode evaluer est invoquée
+15:20:09.516 [main] INFO  titreLogger -1+34=35
+15:20:09.516 [main] INFO  titreLogger -Alors le service est invoqué avec l'expression 1+34
+15:20:09.532 [main] INFO  titreLogger -Alors dans la console, s'affiche 1+34=35
+15:20:09.532 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:20:09.532 [main] INFO  titreLogger -L'expression 1+34 est invalide
+15:20:09.532 [main] INFO  titreLogger -1+34=0
+15:20:09.532 [main] INFO  titreLogger -**** Application Calculatrice ****
+15:20:09.532 [main] INFO  titreLogger -Au revoir :-(

@@ -25,6 +25,10 @@ public class App {
 	
 	public void demarrer() {
 		afficherTitre();
+		
+		if(scanner.nextLine().equals("fin")) {
+			LOG.info("Au revoir :-(");
+		}
 	}
 	
 	protected void evaluer(String expression) {
