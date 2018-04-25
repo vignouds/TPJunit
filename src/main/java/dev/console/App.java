@@ -12,6 +12,7 @@ public class App {
 	private Scanner scanner;
 	private CalculService calculatrice;
 	private static final Logger LOG = LoggerFactory.getLogger("titreLogger");
+	private int resultat;
 	
 	public App(Scanner scanner, CalculService calculatrice) {
 		this.scanner=scanner;
@@ -28,5 +29,12 @@ public class App {
 	
 	protected void evaluer(String expression) {
 		
+		try {
+			resultat = calculatrice.additionner(expression);
+		} catch (Exception e) {
+			LOG.info("L'expression {} est invalide", expression);
+		}
+		
+		LOG.info("{}={}", expression, resultat);
 	}
 }
