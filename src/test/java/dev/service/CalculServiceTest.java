@@ -1,6 +1,8 @@
 package dev.service;
 
 import static org.junit.Assert.assertEquals;
+import static org.assertj.core.api.Assertions.*;
+
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -25,7 +27,7 @@ public class CalculServiceTest {
 		somme = cs.additionner("1+3+4");
 
 		LOG.info("Alors j'obtiens le résultat 8");
-		assertEquals(8, somme);
+		assertThat(somme).isEqualTo(8);
 	}	
 	
 	@Test (expected = CalculException.class)

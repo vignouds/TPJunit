@@ -22,6 +22,10 @@
     <appender-ref ref="STDOUT" />
   </logger>
 
+  <logger name="titreLogger" level="INFO">
+    <appender-ref ref="STDOUT" />
+  </logger>
+
   <!-- règle de logs par défaut. Ici : niveau INFO vers la sortie standard -->
   <root level="DEBUG">
     <appender-ref ref="FILE" />

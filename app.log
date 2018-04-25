@@ -49,3 +49,10 @@
 11:43:17.477 [main] INFO  dev.service.CalculServiceTest -Lorsque j'évalue l'addition de l'expression 1+3+4
 11:43:17.477 [main] DEBUG dev.service.AppService -Evaluation de l'expression 
 11:43:17.477 [main] INFO  dev.service.CalculServiceTest -Alors j'obtiens le résultat 8
+12:17:40.018 [main] INFO  dev.console.App -**** Application Calculatrice ****
+12:20:50.519 [main] DEBUG dev.console.App -**** Application Calculatrice ****
+12:21:36.868 [main] INFO  dev.console.App -**** Application Calculatrice ****
+12:24:59.199 [main] INFO  org.diginamic.App -Bonjour Slf4J ! 
+12:24:59.199 [main] INFO  org.diginamic.App -Implémentation Logback
+12:24:59.199 [main] DEBUG dev.service.AppService -Traitement 1 : param = valeur 1
+12:31:35.515 [main] INFO  titreLogger -**** Application Calculatrice ****
